@@ -1,0 +1,291 @@
+/* --------------------------------------------
+	MODALS
+-------------------------------------------- */
+
+.modal {
+    display: none;
+
+    position: fixed;
+    top: 25%;
+    left: 50%;
+
+    width: 300px;
+    margin-left: -150px;
+
+    color: #333;
+    border-radius: 10px;
+    background-color: #2e2e2e;
+    box-shadow: 0 23px 60px #000, inset 0 -1px rgba(0, 0, 0, .22);
+    overflow: hidden;
+}
+
+.modal .close {
+    position: absolute;
+    top: 24px;
+    right: 21px;
+    width: 13px;
+    height: 13px;
+    background: url(../images/sprite.png) no-repeat -250px 3px;
+}
+
+.modal label {
+    color: #fff;
+}
+
+.modal .input-text {
+    height: 36px;
+    border-radius: 3px;
+    background-color: #fff;
+    border: solid 1px #000;
+}
+
+.modal form p {
+    margin-bottom: 10px;
+}
+
+.modal .input-text:focus {
+    box-shadow: none;
+}
+
+.modal .modal-header {
+    padding: 15px 30px 0;
+}
+
+.modal .modal-header h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+    color: #fff;
+}
+
+.modal .modal-content {
+    padding: 30px 30px;
+}
+
+.profile-actions .modal .modal-content {
+    padding-top: 8px;
+}
+
+.modal .submit-form {
+    margin: 15px 0 0 0;
+}
+
+.jqmOverlay {
+    background-color: transparent;
+}
+
+* html .modal {
+    position: absolute;
+    top: expression((document.documentElement.scrollTop || document.body.scrollTop) + Math.round(17 * (document.documentElement.offsetHeight || document.body.clientHeight) / 100) + 'px');
+}
+
+/* Login */
+.modal.modal-login {
+    top: 179px;
+    margin-left: -200px;
+    width: 400px;
+}
+
+.modal.modal-login .nav {
+    margin-bottom: 30px;
+    padding: 0;
+    height: auto;
+    background: transparent;
+}
+
+.modal.modal-login .nav li {
+    margin-right: 22px;
+    line-height: 18px;
+}
+
+.modal.modal-login .nav li:last-child {
+    margin-right: 0;
+}
+
+.modal.modal-login .nav a {
+    border-bottom: dotted 1px #1b9adc;
+    color: #1b9adc;
+    text-shadow: none;
+    font-weight: normal;
+}
+
+.modal.modal-login .nav  .active a {
+    color: #727272;
+    border-bottom: none;
+}
+
+.modal.modal-login .modal-header {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.modal.modal-login .modal-content {
+    padding: 20px 30px 25px;
+}
+
+.modal.modal-login .remember-label {
+    margin-top: 7px;
+    font-size: 11px;
+    color: #6c7272;
+}
+
+.modal.modal-login .remember-label input {
+    top: 2px;
+}
+
+.modal.modal-login .icon-question-sign {
+    position: relative;
+    top: -1px;
+    margin-left: 2px;
+}
+
+.modal.modal-login .icon-ok-green {
+    position: relative;
+    top: -1px;
+}
+
+.modal.modal-login .submit-form .button {
+    position: relative;
+    float: right;
+    height: 30px;
+}
+
+.modal.modal-login .submit-registration-form .button {
+    float: none;
+}
+
+.ie .modal.modal-login .js-block-popup-login-content .button {
+    margin-left: 1px;
+}
+
+/* Write */
+.modal.modal-write {
+    width: 461px;
+    margin-left: -230px;
+    top: 179px;
+}
+
+.modal.modal-write .modal-content {
+    padding: 20px 10px 20px;
+    *padding: 20px 10px 25px;
+}
+
+.modal.modal-write .write-list {
+    *overflow: hidden;
+    *zoom: 1;
+}
+
+.modal.modal-write .write-list li {
+    display: inline-table;
+    overflow: hidden;
+    *float: left;
+    width: 100px;
+    height: 96px;
+    font-size: 15px;
+    text-align: center;
+    evrtical-align: top;
+}
+
+.modal.modal-write .write-list li a {
+    display: block;
+    color: #0ccdff;
+}
+
+.modal.modal-write .write-list li:hover a {
+    color: #d1e751;
+}
+
+.modal.modal-write .write-list li .write-item-image {
+    display: inline-block;
+    height: 75px;
+    background: url(../images/sprite.png) no-repeat;
+    text-align: center;
+}
+
+.modal.modal-write .write-list li.write-item-type-draft {
+    width: auto;
+    padding: 0 25px 0 15px;
+    border-right: 1px solid #585858;
+}
+
+.modal.modal-write .write-list li.write-item-type-topic .write-item-image {
+    width: 39px;
+    background-position: -260px -45px;
+}
+
+.modal.modal-write .write-list li.write-item-type-poll .write-item-image {
+    width: 39px;
+    background-position: -345px -45px;
+}
+
+.modal.modal-write .write-list li.write-item-type-link .write-item-image {
+    width: 39px;
+    background-position: -345px -45px;
+}
+
+.modal.modal-write .write-list li.write-item-type-message .write-item-image {
+    width: 52px;
+    background-position: -163px -45px;
+}
+
+.modal.modal-write .write-list li.write-item-type-blog .write-item-image {
+    width: 52px;
+    background-position: -53px -45px;
+}
+
+.modal.modal-write .write-list li.write-item-type-draft .write-item-image {
+    width: 39px;
+    background-position: -345px -45px;
+}
+
+.modal.modal-write .write-list li.write-item-type-topic:hover  .write-item-image {
+    background-position: -218px -45px;
+}
+
+.modal.modal-write .write-list li.write-item-type-poll:hover  .write-item-image {
+    background-position: -114px -115px;
+}
+
+.modal.modal-write .write-list li.write-item-type-link:hover  .write-item-image {
+    background-position: -229px -115px;
+}
+
+.modal.modal-write .write-list li.write-item-type-message:hover  .write-item-image {
+    background-position: -108px -45px;
+}
+
+.modal.modal-write .write-list li.write-item-type-blog:hover  .write-item-image {
+    background-position: 1px -45px;
+}
+
+.modal.modal-write .write-list li.write-item-type-draft:hover  .write-item-image {
+    background-position: -303px -45px;
+}
+
+/* Upload Image */
+.modal.modal-image-upload {
+    width: 500px;
+    margin-left: -250px;
+}
+
+.modal.modal-upload-photo .image-border, .modal.modal-upload-avatar .image-border {
+    float: left;
+    border-radius: 5px;
+    background: #fff;
+    padding: 5px;
+    margin-bottom: 15px;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+}
+
+.modal.modal-upload-photo .modal-content, .modal.modal-upload-avatar .modal-content {
+    padding-top: 10px;
+}
+
+#avatar-resize-original-img {
+    max-width: 200px;
+    width: 100%;
+}
+
+
+

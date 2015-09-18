@@ -1,0 +1,154 @@
+/* -------------------------------------------------------------------
+	
+	КНОПКИ
+	
+	
+	Примеры использования:
+	
+	<button class="button">Preview</button>
+	<a href="#" class="button">Preview</a>
+	
+	<button class="button button-primary">Save</button>
+	
+------------------------------------------------------------------- */
+
+.button {
+	display: inline-block;
+    padding: 5px 10px 6px;
+    text-shadow: 0 1px #fff;
+    font-size: 12px;
+    color: #444;
+    background: #f3f3ee;
+    background: -webkit-linear-gradient(top, #f3f3ee 0%,#deded3 100%);
+    background: linear-gradient(to bottom, #f3f3ee 0%,#deded3 100%);
+    border-radius: 4px;
+    border: 0;
+}
+
+.button:hover {
+    text-decoration: none;
+}
+.button:active { 
+
+}
+.button.fl-r { *margin-right: 0; }
+
+.opera .button { padding-top: 4px; padding-bottom: 5px; }
+
+
+/* Button Primary */
+.button.button-primary {
+    border: none;
+    border-radius: 2px;
+    font-weight: bold;
+    background: #53c300;
+    color: #fff;
+    text-decoration: none;
+    background: -webkit-linear-gradient(top, #91df00 0%, #1b9500 100%); /* Chrome10+,Safari5.1+ */
+    background: linear-gradient(to bottom, #91df00 0%, #1b9500 100%); /* W3C */
+    text-shadow: none;
+}
+.button.button-primary:hover {}
+
+
+/* Button Icon (Without text) */
+.button.button-icon 			{ padding: 7px 10px; }
+
+
+/* Button Write */
+.button.button-write { 
+	background: #66cfff;
+	background: -moz-linear-gradient(top,  #66cfff 0%, #2abcfe 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#66cfff), color-stop(100%,#2abcfe));
+	background: -webkit-linear-gradient(top,  #66cfff 0%,#2abcfe 100%);
+	background: -o-linear-gradient(top,  #66cfff 0%,#2abcfe 100%);
+	background: -ms-linear-gradient(top,  #66cfff 0%,#2abcfe 100%);
+	background: linear-gradient(top,  #66cfff 0%,#2abcfe 100%);
+	
+	border: 1px solid #27ace8;
+	
+	padding: 2px 15px 4px;
+	border-radius: 15px;
+	line-height: 17px;
+	
+	color: #fff;
+	font-size: 11px;
+}
+.button.button-write:hover { 
+	background: #4ec4ff;
+	background: -moz-linear-gradient(top,  #4ec4ff 0%, #22b3fe 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4ec4ff), color-stop(100%,#22b3fe));
+	background: -webkit-linear-gradient(top,  #4ec4ff 0%,#22b3fe 100%);
+	background: -o-linear-gradient(top,  #4ec4ff 0%,#22b3fe 100%);
+	background: -ms-linear-gradient(top,  #4ec4ff 0%,#22b3fe 100%);
+	background: linear-gradient(top,  #4ec4ff 0%,#22b3fe 100%);
+
+	-webkit-box-shadow: 0 -1px 0 rgba(255, 255, 255, .5) inset; box-shadow: 0 -1px 0 rgba(255, 255, 255, .5) inset;  
+}
+
+
+/* Button Small */
+.button.button-small { font-size: 11px; padding: 1px 7px 3px; }
+
+
+/* Button Action */
+.button.button-action, 
+.table-users .button.button-action:hover {
+    padding: 3px 5px 3px;
+    background: #f3f3ee;
+    background: -webkit-linear-gradient(top, #f3f3ee 0%,#deded2 100%);
+    background: linear-gradient(to bottom, #f3f3ee 0%,#deded2 100%);
+    box-shadow: none;
+    border: transparent;
+}
+
+.table-users .button.button-action:hover span {
+    color: #444;
+}
+
+ .button.button-action:hover i {
+    display: none;
+}
+
+.button.button-action-note:hover i {
+    display: inline-block;
+}
+
+.table-users .button.button-action-note:hover {
+    padding-top: 1px;
+}
+
+.button.button-action i {
+    margin-top: 3px;
+}
+
+.button.button-action span { display: none; }
+
+.button.button-action:hover span {
+    display: inline-block;
+}
+
+.button.button-action.button-action-add-friend:hover i {
+    background-position: -147px -39px;
+}
+
+.button.button-action.button-action-send-message:hover i {
+    background-position: -163px -39px;
+}
+
+.button.button-action-send-message {
+    padding-bottom: 1px;
+}
+
+.button.button-action-send-message i {
+    margin: 2px 0 3px;
+}
+
+.button.button-action.button-action-join.active i,
+.button.button-action.button-action-join:hover i {
+    background-position: -179px -39px;
+}
+
+.button.button-action.button-action-note {
+    padding: 1px 5px 3px;
+}

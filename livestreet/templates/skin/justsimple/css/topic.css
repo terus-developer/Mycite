@@ -1,0 +1,159 @@
+/* --------------------------------------------
+	ТОПИК
+-------------------------------------------- */
+
+.topic { margin-bottom: 40px; overflow:hidden; position: relative; zoom: 1; }
+.topic:last-child { margin-bottom: 0; }
+
+/* Title */
+.topic .title { font-size:26px; margin-bottom:8px; line-height:26px; font-weight:bold }
+.topic .title a { text-decoration:none; color:#252525 }
+.topic .title a:hover { color:#3092fe }
+
+/* Info-top */
+.topic .info-top { margin-bottom: 10px; font-size:14px; }
+.topic .info-top .title-blog { color: #747474; text-decoration:none; margin-right: 15px; }
+.topic .info-top .title-blog:hover { color: #222; }
+
+/* Content */
+.topic .topic-content 		{ margin-bottom: 15px; }
+.topic .topic-content.text 	{ font-size: 14px; line-height: 22px; }
+.topic .topic-content.text img { background:#fff; padding:3px; box-shadow:2px 1px 4px #b3b3b3; max-width:98%; height:auto }
+
+.topic .date { position:absolute; bottom:48px; right:8px; color:#747474; font-size:11px }
+
+/* Tags */
+.topic .tags { margin-left:8px; padding-left: 24px; height:16px; background: url(../images/tag-icon.png) no-repeat 0 1px; zoom: 1; width:80% }
+.topic .tags li { display: inline; color: #5d5d5d; font-size:11px }
+.topic .tags li a { color: #5d5d5d; text-decoration: none; }
+.topic .tags li a:hover { color: #222 }
+.topic .tags li.topic-tags-user a { color: #339900 }
+.topic .tags li.topic-tags-user a:hover { background: #339900; color:#fff }
+
+/* Info */
+.topic .info { overflow: hidden; zoom: 1; margin-top:12px; background:#fff; border-radius:5px; height:36px }
+.topic .info li { float: left; margin-top:10px; }
+
+.topic .info li.date { color: #999; font-size: 11px; }
+.topic .info li.username { margin-left:50px }
+.topic .info li.username .avatar { float:left; margin-right:8px; width:16px; height:16px }
+.topic .info li.username a { color:#555 }
+.topic .info li.username a:hover { color:#222 }
+.topic .info li.comments-link { margin-left:70px }
+.topic .info li.comments-link span { color:#5d5d5d }
+.topic .info li.url a { padding-left: 16px; background: url(../images/topic_link.gif) 0 1px no-repeat; font-size: 11px; }
+
+.topic .info li.favor { float:right; margin:11px 16px 0px 0px }
+.topic .info li.favor .favourite { display:block; height: 14px; cursor:pointer; float:left; width: 91px; background: url(../images/topic-favour.png) no-repeat }
+.topic .info li.favor .favourite:hover { background-position:0px -14px }
+.topic .info li.favor .favourite.active { background-position:0px -28px; width:102px }
+.topic .info li.favor .favourite.active:hover { background-position:0px -42px; width:102px }
+.topic .info li.favor .favourite-count { position:relative; top:-1px; left:4px; color:#999; font-size:11px }
+
+.topic .info li.topic-info-share			{ float:right; margin:10px 15px 0 20px }
+.topic .info li.topic-info-share i 			{ color:#0158bb; border-bottom:1px dashed; font-style:normal; cursor:pointer }
+.topic .info li.topic-info-share i:hover 	{ color:#3092FE }
+
+/* Voting */
+.topic .vote { margin:1px 0px 0px 15px }
+.topic .vote .vote-count { float: left; padding: 0 10px; color: #888; font-weight:bold; }
+.topic .vote .vote-count a { text-decoration: none; color: #888; outline: none; }
+
+.topic .vote.vote-count-positive .vote-count { color: #4aa706 }
+.topic .vote.vote-count-negative .vote-count { color: #a70606 }
+
+.topic .vote .vote-up,
+.topic .vote .vote-down 			{ width: 9px; height: 11px; float: left; display: block; background: url(../images/voting.png) no-repeat; position: relative; top: 2px; outline: none; }
+.topic .vote .vote-up 			{ background-position: 0 0; }
+.topic .vote .vote-down			{ background-position: -18px 0; }
+.topic .vote .vote-up:hover 	{ background-position: -9px 0; }
+.topic .vote .vote-down:hover 	{ background-position: -27px 0; }
+
+.topic .vote.voted.voted-up 	.vote-up 			{ background-position: -9px 0; }
+.topic .vote.voted.voted-down .vote-down 			{ background-position: -27px 0; }
+.topic .vote.voted.voted-up 	.vote-down:hover 	{ background-position: -18px 0; }
+.topic .vote.voted.voted-down .vote-up:hover 	{ background-position: 0 0; }
+
+.topic .vote.guest .vote-up:hover 	{ background-position: 0 0; }
+.topic .vote.guest .vote-down:hover 	{ background-position: -18px 0; }
+
+/* Share */
+.topic .topic-share { display: none; background:#fff; margin-top:34px; bottom:24px; padding: 3px; border-radius: 5px; position: relative; }
+.topic .topic-share .arrow { display:none }
+
+/* Poll */
+.topic .poll { margin-bottom: 15px; }
+
+.topic .poll .poll-vote { margin-bottom: 20px; margin-left: 0; list-style-type: none;	}
+.topic .poll .poll-vote li { margin-bottom: 10px; }
+.topic .poll .poll-vote li:last-child { margin-bottom: 0; }
+.topic .poll .poll-vote li label { display: inline; }
+.topic .poll .poll-vote li input { position: relative; top: 1px; margin-right: 2px; }
+
+.topic .poll .poll-result { margin-bottom: 10px; list-style-type: none; background: #fff; overflow: hidden; }
+.topic .poll .poll-result li { margin-bottom: 20px; }
+.topic .poll .poll-result li dl { overflow: hidden; zoom: 1; }
+.topic .poll .poll-result li dl dt { float: left; width: 80px; }
+.topic .poll .poll-result li dl dt span { font-size: 11px; color: #aaa; }
+.topic .poll .poll-result li dl dd { float: left; width: 400px; }
+.topic .poll .poll-result li dl dd div { height: 7px; margin-top: 3px; background: #ccc; overflow: hidden; border-radius: 4px; }
+.topic .poll .poll-result li.most dl dd div { background: #1999e2; background: url(../images/poll-most.png) repeat-x; -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2); box-shadow: 0 1px 2px rgba(0,0,0,.2); }
+.topic .poll .poll-result li.most dl dt { color: #12aaeb; }
+
+.topic .poll .poll-total { position: relative; color: #818189; font-size: 11px; line-height: 16px; padding-left: 80px; margin-bottom: 30px; }
+.topic .poll .poll-total .poll-sort { position: absolute; top: 2px; left: 0; width: 23px; height: 23px; background: url(../images/icons-synio.png) -161px 0 no-repeat; cursor: pointer; }
+.topic .poll .poll-total .poll-sort.active { background-position: -184px 0; }
+
+/* Topic Photo */
+.topic.topic-type-photoset {  }
+.topic.topic-type-photoset .topic-photo-preview { position: relative; margin-bottom: 15px; cursor: pointer; }
+.topic.topic-type-photoset .topic-photo-preview img { vertical-align: top; }
+.topic.topic-type-photoset .topic-photo-preview .topic-photo-count { display: none; cursor: pointer; position: absolute; top: 5px; right: 5px; background: #000; color: #6bd24b; padding: 4px 7px; background: rgba(0,0,0,.6); }
+.topic.topic-type-photoset .topic-photo-preview .topic-photo-desc { display: none; width: 96%; padding: 7px 2%; position: absolute; bottom: 0; left: 0; background: #000; color: #6bd24b; color: #fff; line-height: 16px; background: rgba(0,0,0,.7); }
+
+.topic.topic-type-photoset .topic-photo-images { padding-top: 10px; margin-bottom: 15px; }
+.topic.topic-type-photoset .topic-photo-images h2 { border-bottom: 1px solid #ccc; padding-bottom: 4px; margin-bottom: 15px; font-size: 25px; }
+.topic.topic-type-photoset .topic-photo-images ul { overflow: hidden; zoom: 1; }
+.topic.topic-type-photoset .topic-photo-images ul li { float: left; margin: 0 9px 9px 0; position: relative; }
+.topic.topic-type-photoset .topic-photo-images ul li .image-number { display: none; position: absolute; top: 5px; right: 5px; background: #000; color: #6bd24b; padding: 1px 6px; font-size: 11px; background: rgba(0,0,0,.6); }
+.topic.topic-type-photoset .topic-photo-images ul li:hover .image-number { display: block; }
+.topic.topic-type-photoset .topic-photo-images ul li img { vertical-align: top; }
+.topic.topic-type-photoset .topic-photo-images .topic-photo-more { display: block; border-top: 1px solid #dbe6f0; text-align: center; padding: 10px 0; margin-bottom: 15px; text-decoration: none; background: #f3f7fa; color: #7b90a5; }
+.topic.topic-type-photoset .topic-photo-images .topic-photo-more:hover { background: #eaf2f8; }
+
+.topic-photo-upload { background: #F1F7FD; padding: 15px 15px 15px; margin-bottom: 20px; }
+.topic-photo-upload h2 { margin-bottom: 15px; }
+.topic-photo-upload ul { overflow: hidden; zoom: 1; }
+.topic-photo-upload ul li { min-height: 100px; _height: 100px; margin-bottom: 10px; padding-left: 110px; position: relative; }
+.topic-photo-upload ul li img { position: absolute; top: 0; left: 0; }
+.topic-photo-upload ul li label { color: #aaa; }
+.topic-photo-upload ul li textarea { border: 1px solid #ddd; width: 350px; height: 60px; padding: 3px; font-size: 12px; font-family: Arial, sans-serif; color: #333; }
+.topic-photo-upload ul li .image-delete { text-decoration: none; margin-right: 15px; }
+.topic-photo-upload ul li .image-delete:hover { color: #f00; }
+.topic-photo-upload ul li.marked-as-preview .mark-as-preview { display: inline; color: #43c70f; font-weight: bold; }
+.topic-photo-upload ul li .mark-as-preview { display: none; text-decoration: none; }
+.topic-photo-upload ul li:hover .mark-as-preview { display: inline; }
+.topic-photo-upload .topic-photo-upload-rules { color: #888; margin-bottom: 15px; }
+.topic-photo-upload .topic-photo-upload-input { margin-bottom: 20px; }
+.topic-photo-upload .topic-photo-upload-input input { margin-top: 3px; }
+
+/* Topic Talk */
+.topic.topic-type-talk header .topic-info 			{ background: #f8fbfe; font-size: 11px; padding: 15px; border-radius: 5px; margin-bottom: 0; }
+
+.topic.topic-type-talk .talk-recipients 			{ padding: 15px; background: #f8fbfe; margin-bottom: 0; border-radius: 0; }
+.topic.topic-type-talk .talk-recipients-header 		{ font-size: 11px; min-height: 0; }
+.topic.topic-type-talk .talk-recipients-content h3 	{ font-size: 16px; font-weight: normal; margin-bottom: 10px; }
+                     
+/* Topic Link */
+.topic.topic-type-link { }
+.topic.topic-type-link .topic-header .topic-title a { color: #27964C; }
+.topic.topic-type-link .topic-url { font-size: 11px; margin-bottom: 30px; padding-top: 10px; }
+.topic.topic-type-link .topic-url a { color: #27964C; }
+.topic.topic-type-link .topic-url a:hover { color: #f00; }
+
+/* Topic Preview */
+.topic-preview { margin-top: 30px; }
+.topic-preview .profile-page-header { border-top: 1px solid #ddd; }
+.topic-preview .topic { margin-bottom: 20px; }
+
+.vote-topic-info li { margin-bottom: 3px; }

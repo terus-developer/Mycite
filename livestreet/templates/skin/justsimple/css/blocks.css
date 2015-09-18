@@ -1,0 +1,92 @@
+/* -------------------------------------------------------------------
+	БЛОКИ
+------------------------------------------------------------------- */
+
+.block { clear:both; overflow:hidden; margin-bottom:35px }
+.block:last-child 		{ margin-bottom: 0 }
+.sidebar-left .block 	{ margin-bottom: 10px; }
+
+.block .block-header 					{ position: relative }
+.block .block-header h3 				{ font-weight:bold; display:table; font-size:18px; margin:0px 0px 10px 12px }
+.block .block-header h3 a 				{ text-decoration: none; color: #333; }
+.block .block-header h3 a.link-dotted 	{ color: #5055B2; }
+.block .block-content 					{ background:#fff; padding:12px }
+.block footer { padding-top: 11px; font-size: 11px; text-align: right; }
+.block footer a { color:#5d5d5d }
+.block footer a:hover { text-decoration:none }
+
+.block .rss { margin-right:12px; float:right; display:block; width:16px; height:16px; background:url(../images/rss-icon.png) no-repeat; position:relative; top:4px }
+
+.block .max-height-200 		{ overflow: auto; max-height: 200px; _height: expression( this.scrollHeight > 200 ? "200px" : "auto" ); position: relative; }
+
+/* Block Type - Stream */
+.block .block-update 			{ float:right; position:relative; top:3px; left:4px; width: 20px; height: 20px; background: url(../images/icons-synio.png) 0 -200px no-repeat; cursor: pointer; }
+.block .block-update:hover 		{ background-position: -20px -200px; }
+.block .block-update.active 	{ background-position: -40px -200px; }
+
+.block.block-type-stream .block-content .latest-list li { color:#5d5d5d; font-size:11px; line-height:18px; border-bottom:1px dashed #bcbcbc; padding:11px 2px 10px 2px }
+.block.block-type-stream .block-content .latest-list li:first-child { padding-top:0px }
+.block.block-type-stream .block-content .latest-list li .user { color:#5d5d5d; font-size:11px }
+.block.block-type-stream .block-content .latest-list li .user:hover { text-decoration:none }
+.block.block-type-stream .block-content .latest-list li .topic-title { font-size:12px }
+.block.block-type-stream .block-content .latest-list li span { color:#4aa706; font-size:12px; margin-left:1px }
+
+/* Block Type - Activity Settings */
+.block.block-type-activity p 		{ margin-bottom: 15px; }
+.block.block-type-activity ul li 	{  }
+.block.block-type-activity ul.stream-settings-blogs li 	{ margin-bottom: 3px; }
+.block.block-type-activity .note 	{ display: block; margin-bottom: 15px; color: #aaa; }
+
+
+/* Block Type - Profile */
+.block .nav.nav-profile 			{ margin-bottom: 15px; }
+.block .nav.nav-profile li 			{ float: none; font-size: 15px; border-bottom: 1px dotted #dce1e6; padding: 8px 10px 10px 30px; }
+.block .nav.nav-profile li.active a { text-decoration: none; color: #000; }
+
+.block.block-type-profile 								{ background: none; border: none; padding: 0; }
+.block.block-type-profile .profile-photo-wrapper 		{ position: relative; min-height: 50px; }
+.block.block-type-profile .profile-photo 				{ vertical-align: top; max-width: 240px; }
+.block.block-type-profile .status 						{ position: absolute; top: 10px; left: 0; padding: 0 0 0 10px; font-size: 11px; line-height: 18px; height: 20px; }
+.block.block-type-profile .status:before 				{ content: ''; position: absolute; top: 0; right: -20px; width: 0; height: 0; border-width: 10px; border-style: solid; border-color: #333; border-color: #333 transparent #333 #333; }
+.block.block-type-profile .status.status-online			{ background: #8961e4; color: #fff; }
+.block.block-type-profile .status.status-online:before 	{ border-color: #8961e4 transparent #8961e4 #8961e4; }
+.block.block-type-profile .status.status-offline		{ background: #fff; color: #333; opacity: .5; filter: alpha(opacity=50); }
+.block.block-type-profile .status.status-offline:before { border-color: #fff transparent #fff #fff; }
+.block.block-type-profile .upload-photo 				{ padding: 10px 30px 15px 30px; background: #f8fbfe; font-size: 11px; }
+.block.block-type-profile .upload-photo a 				{ color: #727a90; border-color: #727a90; }
+
+.block.block-type-profile-note	 				{ border: 2px solid #ffe25d; padding: 15px; border-radius: 5px; }
+.block.block-type-profile-note p 				{ margin-bottom: 10px; }
+.block.block-type-profile-note .actions 		{ margin-bottom: 0; font-size: 11px; }
+.block.block-type-profile-note .actions a 		{ color: #275ec2; border-color: #275ec2; }
+.block.block-type-profile-note .actions a:hover { color: #f00; border-color: #f00; }
+
+.block.block-type-profile-nav 					{ padding: 0; background: none; border: none; }
+
+.block.block-type-profile-actions 						{ border: none; }
+.block.block-type-profile-actions .block-content 		{ padding: 0 0 0 30px; }
+.block.block-type-profile-actions ul li					{ margin-bottom: 5px; font-size: 11px; }
+.block.block-type-profile-actions ul li:last-child		{ margin-bottom: 0; }
+.block.block-type-profile-actions ul li a				{ color: #727a90; }
+.block.block-type-profile-actions ul li a:hover			{ color: #f00; }
+.block.block-type-profile-actions ul li a.followed		{ color: #f00; }
+
+/* Block Type - Foldable */
+.block.block-type-foldable { background: none; }
+.block.block-type-foldable .block-header { background: none; border: none; padding: 0 0 10px; }
+.block.block-type-foldable .block-content { display: none; background: #fafafa; }
+
+.block.block-type-talk-search { margin-bottom: 10px; }
+.block.block-type-talk-friends { margin-bottom: 10px; }
+
+/* Search */
+.block.search form { border:1px solid #cfcfcf; width:99%; background:#fff }
+.block.search .text { background:#fff; height:28px; width:78%; line-height:28px; color:#828282; border:0px; font-size:14px; margin:0px; padding:0px 13px }
+.block.search .text:focus { outline:none }
+.block.search .search-submit { float:right; width:28px; height:28px; border:0px; background:url(../images/search-btn.png) no-repeat; display:block }
+
+/* Top Blogs */
+.block.block-type-blogs .block-blog-list li { border-bottom:1px dashed #bcbcbc; padding:11px 2px 10px 2px }
+.block.block-type-blogs .block-blog-list li:first-child { padding-top:0px }
+.block.block-type-blogs .block-blog-list li img { vertical-align: top; }
+.block.block-type-blogs .block-blog-list li strong { float: right; color:#4aa706; margin-left: 14px; }

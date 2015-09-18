@@ -1,0 +1,96 @@
+/* --------------------------------------------
+	СЕТКА
+-------------------------------------------- */
+
+#container, .inside {
+    margin: 0 auto;
+    padding: 0 42px;
+    min-width: 940px;
+    max-width: 1300px;
+}
+
+.inside {
+    position: relative;
+}
+
+#header-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    background: #090909;
+    background: url(../images/bg/header-bg.jpg) no-repeat center top;
+}
+
+#header {
+    height: 120px;
+    margin: 0 auto;
+    position: relative;
+    padding-right: 270px;
+}
+
+#nav {
+    min-height: 32px;
+    overflow: hidden;
+    position: relative;
+    border-top: solid 1px #30c5ec;
+    border-radius: 0 0 2px 2px;
+    background: #27aee4;
+    background: -moz-linear-gradient(top, #25ace4 0%, #138cd6 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #25ace4), color-stop(100%, #138cd6));
+    background: -webkit-linear-gradient(top, #25ace4 0%, #138cd6 100%);
+    background: -o-linear-gradient(top, #25ace4 0%, #138cd6 100%);
+    background: -ms-linear-gradient(top, #25ace4 0%, #138cd6 100%);
+    background: linear-gradient(to bottom, #25ace4 0%, #138cd6 100%);
+}
+
+#wrapper {
+    zoom: 1;
+}
+
+#content {
+    position: relative;
+    margin-right: 26%;
+    margin-bottom: 30px;
+    min-height: 1px;
+    width: 73%;
+    min-width: 680px;
+}
+
+#content.content-profile {
+    margin-bottom: 24px;
+}
+
+#sidebar {
+    float: right;
+    width: 240px;
+}
+
+#footer {
+    overflow: hidden;
+    margin-bottom: 15px;
+    padding: 17px 0 0 0;
+    min-height: 63px;
+    border-top: solid 1px #dbdbce;
+    background: #f7f7f4;
+    background: -webkit-linear-gradient(top, #f0f0ea 0%, #ffffff 100%);
+    background: linear-gradient(to bottom, #f0f0ea 0%, #ffffff 100%);
+}
+
+#wrapper.no-sidebar {
+    background-image: none;
+}
+
+#wrapper.no-sidebar #content {
+    width: 100%;
+    margin-right: 0;
+}
+
+#container.toolbar-margin {
+    padding: 0;
+}
+
+#container.toolbar-margin #wrapper {
+    margin-right: 48px;
+}

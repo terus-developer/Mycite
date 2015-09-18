@@ -1,0 +1,32 @@
+/* --------------------------------------------
+	НАВИГАЦИЯ
+-------------------------------------------- */
+
+/* Menu */
+#nav .menu { float: left; font-size: 14px; margin-top:9px }
+#nav .menu li { float: left; color: #575757; margin-right:32px; font-size:14px; font-weight:bold; position: relative; }
+#nav .menu li .new { color: #4aa706; text-decoration:none }
+#nav .menu li a { color: #575757 }
+#nav .menu li a:hover { color: #222 }
+#nav .menu li.active a { text-decoration:none }
+
+/* Sub-menu */
+#nav .sub-menu { position: absolute; top: 35px; left: 0; width: 500px; font-size: 12px; }
+#nav .sub-menu li { font-weight:normal !important; margin-right:22px; }
+#nav .sub-menu li a { text-decoration:underline !important }
+#nav .sub-menu li.active a { text-decoration:none !important }
+
+
+/* Dropdown */
+.nav-pills li.dropdown 			{ position: relative; }
+.nav-pills li.dropdown a 		{ padding-right: 12px; }
+.nav-pills li.dropdown i 		{ position: absolute; top: 2px; right: -2px; cursor: pointer; }
+.nav-pills li.dropdown ul 		{ display: none; position: absolute; }
+.nav-pills li.dropdown.opened a {   }
+
+.dropdown-menu 						{ display: none; padding: 10px 15px 13px; border: 3px solid #edf8fd; border-radius: 10px; -webkit-box-shadow: 0 0 10px rgba(0,0,0,.5); box-shadow: 0 0 10px rgba(0,0,0,.5); position: absolute; top: 32px; overflow: hidden; z-index: 10; background: #fff; min-width: 150px; }
+.dropdown-menu li 					{ line-height: 1em; margin-bottom: 15px; }
+.dropdown-menu li:last-child 		{ margin-bottom: 0; }
+.dropdown-menu li a 				{ display: block; }
+.dropdown-menu li a:hover 			{  }
+.dropdown-menu li.active a 			{ color: #aaa; }
