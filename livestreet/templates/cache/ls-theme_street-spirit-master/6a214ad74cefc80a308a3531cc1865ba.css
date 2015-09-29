@@ -527,11 +527,12 @@ html[xmlns] .clear {
 }
 
 .header-bg {
-    width: 100%;
+    width: 980px;
     height:135px;
+    margin: 0 auto;
     box-sizing: border-box;
     padding: 25px 0 0 0;
-    background: url("http://ls.dd5533.tk/templates/skin/ls-theme_street-spirit-master/images/texture.jpg") 100% 100% / cover;
+    background: #3d0083;
 }
 
 .logotype{
@@ -592,7 +593,7 @@ h2.header-table > span.for_line { background: #fff; display: inline-block; *disp
 
 .header-wrapper{
     width:1220px;
-    height:130px;
+    height:80px;
 
     box-sizing:border-box;
     margin: 0 auto -15px;
@@ -629,6 +630,7 @@ h2.header-table > span.for_line { background: #fff; display: inline-block; *disp
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+    margin: -65px -530px 0 0;
 	margin-left: 2%;
 	/*
 	background: #353535;
@@ -681,7 +683,7 @@ h2.header-table > span.for_line { background: #fff; display: inline-block; *disp
 #header .auth li { float: left; /*margin-left: 23px;*/ }
 #header .auth li a { color: #cfcfcf; text-decoration: none; }
 #header .auth li a.sign-in { color: #7dc6ff; }
-#nav .auth { float: right; font-size: 11px; width: 21%; min-width: 240px; /*margin: 11px 0;*/}
+#nav .auth { float: right; font-size: 11px; width: 21%; min-width: 240px; margin:-65px -450px 0 0;}
 #nav .auth li { float: left; margin-right: 4px; font-size: 13px; color: #9c9c9c; }
 #nav .auth li:last-child { margin-right: 0; }
 #nav .auth li span {  }
@@ -747,7 +749,7 @@ h2.header-table > span.for_line { background: #fff; display: inline-block; *disp
 #nav .search-header .search-header-form .input-text { padding: 4px 25px 4px 5px; width: 290px; }
 #nav .search-header .search-header-form .input-submit { position: absolute; top: 5px; right: 5px; width: 16px; height: 16px; border: none; background: url(http://ls.dd5533.tk/templates/skin/ls-theme_street-spirit-master/images/icons-synio.png) -115px -55px no-repeat; }
 
-#header .button.button-write { float: right; margin-left: 35px; margin-top: 1px; margin-right: 29px; margin-top: 8px; }
+#header .button.button-write { float: right; margin: -55px -260px 0 0; }
 #header .search-header { float: right; min-width: 240px; width: 21%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 #header .search-header .search-header-show { font-size: 11px; margin-top: 4px; }
 #header .search-header .search-header-show a { color: #878e96; border-color: #878e96; }
@@ -1136,12 +1138,12 @@ h2.header-table > span.for_line { background: #fff; display: inline-block; *disp
 -------------------------------------------- */
 
 .container 			{ margin: 0 auto; padding: 0 48px; width: auto; max-width: 1368px; }
-.content_bg 		{ background: url(http://ls.dd5533.tk/templates/skin/ls-theme_street-spirit-master/images/content_bg.png) #fff repeat-x; border-top: solid 1px #d6d6d6; border-bottom: solid 1px #d6d6d6; }
+.content_bg 		{ background: url(http://ls.dd5533.tk/templates/skin/ls-theme_street-spirit-master/images/content_bg.png) #fff repeat-x; border-top: solid 1px #d6d6d6; border-bottom: solid 1px #d6d6d6; width:980px; margin: 0 auto; }
 .footer_wrap 		{ border-top: solid 1px #d6d6d6; overflow: hidden; padding-top: 20px; }
 .footer_wrap .container	{ padding: 0px; max-width: 1445px;}
 #container 			{ margin: 0 auto; padding: 0 48px 0 38px; width: auto; max-width: 1355px; min-width: 915px;  }
 #header-back 		{ position: absolute; top: 0; left: 0; width: 100%; }
-#header 			{ margin: 0 auto;  }
+#header 			{ margin: 0 auto; background:#5c00c4; }
 #nav 		{ 
 	overflow: visible;
 	padding: 0 10px;
@@ -2188,7 +2190,7 @@ dl.form-item dd { float: left; width: 250px; }
 
 
 /* Nav Main */
-.nav.nav-main 					{ height: 39px; overflow: hidden; font-family:'PT Sans'; font-weight: bold;}
+.nav.nav-main 					{ height: 39px; overflow: hidden; font-family:'PT Sans'; font-weight: bold; float:right;}
 .nav.nav-main li 				{ margin-right: 22px; position: relative; height: 39px; line-height: 38px; }
 .nav.nav-main li:last-child 	{ margin-right: 0; }
 .nav.nav-main li a 				{ color: #fff; font-size: 16px; font-weight: bold; }
