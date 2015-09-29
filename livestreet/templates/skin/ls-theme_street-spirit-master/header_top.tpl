@@ -8,7 +8,6 @@
         </div>
   </div>
 
-	
 	<div class="wrap main_menu clear">
 		<div class="container clear">
 			<div class="search-header">
