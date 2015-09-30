@@ -44,6 +44,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="footer.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/skin/ls-theme_street-spirit-master/footer.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-19.192308">
+              <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="nav.tpl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/skin/ls-theme_street-spirit-master/nav.tpl">
           <provider selected="true" editor-type-id="text-editor">
@@ -57,64 +67,12 @@
       <file leaf-file-name="6a214ad74cefc80a308a3531cc1865ba.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/cache/ls-theme_street-spirit-master/6a214ad74cefc80a308a3531cc1865ba.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24144144">
-              <caret line="2197" column="122" selection-start-line="2197" selection-start-column="122" selection-end-line="2197" selection-end-column="122" />
+            <state vertical-scroll-proportion="0.33333334">
+              <caret line="2633" column="40" selection-start-line="2633" selection-start-column="40" selection-end-line="2633" selection-end-column="40" />
               <folding>
-                <marker date="1443618361809" expanded="true" signature="147691:147735" placeholder="{...}" />
-                <marker date="1443618361809" expanded="true" signature="159262:159427" placeholder="{...}" />
-                <marker date="1443618361809" expanded="true" signature="181841:181897" placeholder="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ActionAjax.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classes/actions/ActionAjax.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="232" column="9" selection-start-line="232" selection-start-column="9" selection-end-line="232" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ActionBlog.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classes/actions/ActionBlog.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="595" column="32" selection-start-line="595" selection-start-column="27" selection-end-line="595" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ACL.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classes/modules/acl/ACL.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="58" column="54" selection-start-line="58" selection-start-column="49" selection-end-line="58" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="russian.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/language/russian.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="227" column="38" selection-start-line="227" selection-start-column="38" selection-end-line="227" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/.htaccess">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-              <folding>
-                <marker date="1442312794347" expanded="true" signature="17:93" placeholder="&lt;Files ~ &quot;(\.tpl)|(\.php)$&quot;&gt;" />
+                <marker date="1443622549391" expanded="true" signature="147504:147548" placeholder="{...}" />
+                <marker date="1443622549391" expanded="true" signature="159075:159240" placeholder="{...}" />
+                <marker date="1443622549391" expanded="true" signature="181654:181710" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -392,9 +350,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-          <folding>
-            <marker date="1442312794347" expanded="true" signature="17:93" placeholder="&lt;Files ~ &quot;(\.tpl)|(\.php)$&quot;&gt;" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -500,13 +456,6 @@
     <entry file="file://$PROJECT_DIR$/templates/skin/ls-theme_street-spirit-master/images/about_pattern.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/skin/ls-theme_street-spirit-master/footer.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/compiled/ls-theme_street-spirit-master/cead22a563703aa904c2df2fdf501e994d536364.file.header_top.tpl.php">
@@ -656,14 +605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/actions/ActionAjax.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="232" column="9" selection-start-line="232" selection-start-column="9" selection-end-line="232" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classes/actions/ActionBlog.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -677,24 +618,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="58" column="54" selection-start-line="58" selection-start-column="49" selection-end-line="58" selection-end-column="54" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/language/russian.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="227" column="38" selection-start-line="227" selection-start-column="38" selection-end-line="227" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-          <folding>
-            <marker date="1442312794347" expanded="true" signature="17:93" placeholder="&lt;Files ~ &quot;(\.tpl)|(\.php)$&quot;&gt;" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -722,6 +645,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/classes/actions/ActionAjax.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="232" column="9" selection-start-line="232" selection-start-column="9" selection-end-line="232" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11643836">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/language/russian.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="227" column="38" selection-start-line="227" selection-start-column="38" selection-end-line="227" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/skin/ls-theme_street-spirit-master/header_top.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.9818182">
@@ -732,14 +679,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/skin/ls-theme_street-spirit-master/footer.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.192308">
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/cache/ls-theme_street-spirit-master/6a214ad74cefc80a308a3531cc1865ba.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24144144">
-          <caret line="2197" column="122" selection-start-line="2197" selection-start-column="122" selection-end-line="2197" selection-end-column="122" />
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="2633" column="40" selection-start-line="2633" selection-start-column="40" selection-end-line="2633" selection-end-column="40" />
           <folding>
-            <marker date="1443618361809" expanded="true" signature="147691:147735" placeholder="{...}" />
-            <marker date="1443618361809" expanded="true" signature="159262:159427" placeholder="{...}" />
-            <marker date="1443618361809" expanded="true" signature="181841:181897" placeholder="{...}" />
+            <marker date="1443622549391" expanded="true" signature="147504:147548" placeholder="{...}" />
+            <marker date="1443622549391" expanded="true" signature="159075:159240" placeholder="{...}" />
+            <marker date="1443622549391" expanded="true" signature="181654:181710" placeholder="{...}" />
           </folding>
         </state>
       </provider>

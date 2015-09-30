@@ -609,7 +609,7 @@ h2.header-table > span.for_line { background: #fff; display: inline-block; *disp
 .site-subname {
     color:#fff; font: 400 16site-namepx / normal 'Open Sans Condensed';
     float: left;
-    margin: -10px 0 0 13px;
+    margin: -10px 0 0 30px;
 
 }
 
@@ -684,11 +684,11 @@ h2.header-table > span.for_line { background: #fff; display: inline-block; *disp
 #header .auth li { float: left; /*margin-left: 23px;*/ }
 #header .auth li a { color: #cfcfcf; text-decoration: none; }
 #header .auth li a.sign-in { color: #7dc6ff; }
-#nav .auth { float: right; font-size: 11px; width: 21%; min-width: 240px; margin:-65px -450px 0 0;}
+#nav .auth { float: right; font-size: 11px; width: 21%; min-width: 240px; margin:-80px -650px 0 0;}
 #nav .auth li { float: left; margin-right: 4px; font-size: 13px; color: #9c9c9c; }
 #nav .auth li:last-child { margin-right: 0; }
 #nav .auth li span {  }
-#nav .auth li a { color: #fff; text-decoration: none; font-weight: bold; font-size: 15px; padding: 1px 10px 2px; -webkit-border-radius: 11px; -moz-border-radius: 11px; border-radius: 11px; }
+#nav .auth li a { color: #fff; text-decoration: none; font-weight: bold; font-size: 15px; padding: 1px 10px 2px; -webkit-border-radius: 11px; -moz-border-radius: 11px; border-radius: 0; }
 #nav .auth li a.sign-in { 
 	color: #fff; 
 	background: #18b210;
@@ -727,16 +727,17 @@ h2.header-table > span.for_line { background: #fff; display: inline-block; *disp
 
 .bottom-info {
     height:100px;
-    background: url("http://ls.dd5533.tk/templates/skin/ls-theme_street-spirit-master/images/about_pattern.png") repeat 100% 100% /  20%;
+    background: #3d0083;
+
 }
 
 .footer-info {
     height:100px;
     width:960px;
-    color:#333;
+    color:#ededec;
     margin: 0 auto;
-    font: 400 16px/100px "Open Sans";
-    text-align: center;
+    text-align:left;
+    font: 400 11px/100px "Open Sans";
 }
 
 /* Навигация
@@ -1140,7 +1141,7 @@ h2.header-table > span.for_line { background: #fff; display: inline-block; *disp
 
 .container 			{ margin: 0 auto; padding: 0 48px; width: auto; max-width: 1368px; }
 .content_bg 		{ background: url(http://ls.dd5533.tk/templates/skin/ls-theme_street-spirit-master/images/content_bg.png) #fff repeat-x; border-top: solid 1px #d6d6d6; border-bottom: solid 1px #d6d6d6; width:980px; margin: 0 auto; }
-.footer_wrap 		{ border-top: solid 1px #d6d6d6; overflow: hidden; padding-top: 20px; }
+.footer_wrap 		{ border-top: solid 1px #d6d6d6; overflow: hidden; padding-top: 20px; display:none; }
 .footer_wrap .container	{ padding: 0px; max-width: 1445px;}
 #container 			{ margin: 0 auto; padding: 0 48px 0 38px; width: auto; max-width: 1355px; min-width: 915px;  }
 #header-back 		{ position: absolute; top: 0; left: 0; width: 100%; }
@@ -2034,7 +2035,7 @@ dl.form-item dd { float: left; width: 250px; }
 
 /* Nav Pills */
 .nav.nav-pills 				{ margin-bottom: 15px; font-size: 11px; }
-.nav.nav-pills li 			{ margin-right: 10px; border: 1px solid transparent; line-height: 13px; border-radius: 8px; padding: 1px 6px 0px; }
+.nav.nav-pills li 			{ margin-right: 10px; border: 1px solid transparent; line-height: 13px; padding: 1px 6px 0px; }
 #sidebar .nav.nav-pills li 			{ margin-right: 0px; }
 .nav.nav-pills li a 		{ display: block; color: #0073a5; text-decoration: underline; float: left; text-transform: uppercase; position: relative; }
 .modal .nav.nav-pills li a 		{ text-decoration: none; border-bottom: dotted 1px #0073a5; }
@@ -2064,7 +2065,7 @@ dl.form-item dd { float: left; width: 250px; }
 /* Nav Topic Filter */
 .nav.nav-menu 						{ font-size: 15px; /*border-radius: 13px; border: 1px solid #fff; */float: left; position: absolute; top: 150px; left:50px; padding: 10px 0; }
 #nav .nav.nav-menu 						{ margin-left: -10px; }
-.nav.nav-menu li 					{ position: relative; -webkit-border-radius: 11px; -moz-border-radius: 11px; border-radius: 11px; /*height: 22px; */ padding: 1px 10px 2px; /*-webkit-box-shadow: -1px 0 0 #dfe3e8 inset, 0 1px 0 #dfe3e8 inset, 0 -1px 0 #dfe3e8 inset; box-shadow: -1px 0 0 #dfe3e8 inset, 0 1px 0 #dfe3e8 inset, 0 -1px 0 #dfe3e8 inset;*/}
+.nav.nav-menu li 					{ position: relative;  /*height: 22px; */ padding: 1px 10px 2px; /*-webkit-box-shadow: -1px 0 0 #dfe3e8 inset, 0 1px 0 #dfe3e8 inset, 0 -1px 0 #dfe3e8 inset; box-shadow: -1px 0 0 #dfe3e8 inset, 0 1px 0 #dfe3e8 inset, 0 -1px 0 #dfe3e8 inset;*/}
 .nav.nav-menu li.active:after, .nav.nav-menu li.active:before {
 	top: 100%;
 	border: solid transparent;
@@ -2194,7 +2195,7 @@ dl.form-item dd { float: left; width: 250px; }
 .nav.nav-main 					{ margin: -20px 0 0 0; height: 67px; overflow: hidden; font-family:'PT Sans'; font-weight: bold; float:right;}
 .nav.nav-main li 				{ margin-right: 13px; position: relative; height: 39px; line-height: 38px; width:155px; border-top:1px solid #72c1bf; text-align:center;}
 .nav.nav-main li:last-child 	{ margin-right: 0; }
-.nav.nav-main li a 				{ color: #fff; font-size: 16px; font-weight: bold; width: 155px; height:67px; display: block; line-height: 57px; text-decoration: none; }
+.nav.nav-main li a 				{ color: #fff; font-size: 16px; font-weight: 400; width: 155px; height:67px; display: block; line-height: 57px; text-decoration: none; }
 .nav.nav-main li a:hover 		{ color: #69c1bf; text-decoration: none; border-top: 3px solid #72c1bf; line-height: 52px; }
 .nav.nav-main li i 				{ display: none; position: absolute; bottom: 0; left: 50%; margin-left: -2px; width: 0; height: 0; border: 3px solid transparent; border-bottom-color: #fff; }
 .nav.nav-main li.active i 		{ display: none; }
@@ -2630,7 +2631,7 @@ dl.form-item dd { float: left; width: 250px; }
 	ТОПИК
 -------------------------------------------- */
 
-.topic { margin-bottom: 50px; }
+.topic { margin-bottom: 50px; width:90%;}
 .topic:last-child { margin-bottom: 0; }
 
 /* Header */
