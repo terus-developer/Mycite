@@ -35,10 +35,10 @@
       <file leaf-file-name="header_top.tpl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/skin/ls-theme_street-spirit-master/header_top.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.8727272">
-              <caret line="84" column="10" selection-start-line="84" selection-start-column="10" selection-end-line="84" selection-end-column="10" />
+            <state vertical-scroll-proportion="-1.9818182">
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="25" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#1;n#header#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#div#0;n#nav#0;n#div#0;n#header#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -47,7 +47,7 @@
       <file leaf-file-name="nav.tpl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/skin/ls-theme_street-spirit-master/nav.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.9230769">
+            <state vertical-scroll-proportion="0.0">
               <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
               <folding />
             </state>
@@ -57,12 +57,12 @@
       <file leaf-file-name="6a214ad74cefc80a308a3531cc1865ba.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/cache/ls-theme_street-spirit-master/6a214ad74cefc80a308a3531cc1865ba.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5783784">
-              <caret line="1148" column="20" selection-start-line="1148" selection-start-column="20" selection-end-line="1148" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.24144144">
+              <caret line="2197" column="122" selection-start-line="2197" selection-start-column="122" selection-end-line="2197" selection-end-column="122" />
               <folding>
-                <marker date="1443533845624" expanded="true" signature="147318:147362" placeholder="{...}" />
-                <marker date="1443533845624" expanded="true" signature="158889:159054" placeholder="{...}" />
-                <marker date="1443533845624" expanded="true" signature="181468:181524" placeholder="{...}" />
+                <marker date="1443618361809" expanded="true" signature="147691:147735" placeholder="{...}" />
+                <marker date="1443618361809" expanded="true" signature="159262:159427" placeholder="{...}" />
+                <marker date="1443618361809" expanded="true" signature="181841:181897" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -136,8 +136,8 @@
         <option value="$PROJECT_DIR$/templates/skin/ls-theme_street-spirit-master/notify/russian/notify.topic_new.tpl" />
         <option value="$PROJECT_DIR$/templates/language/russian.php" />
         <option value="$PROJECT_DIR$/templates/cache/ls-theme_street-spirit-master/626f4f524c4a2f8861fce258471fbe3b.css" />
-        <option value="$PROJECT_DIR$/templates/skin/ls-theme_street-spirit-master/header_top.tpl" />
         <option value="$PROJECT_DIR$/templates/skin/ls-theme_street-spirit-master/nav.tpl" />
+        <option value="$PROJECT_DIR$/templates/skin/ls-theme_street-spirit-master/header_top.tpl" />
         <option value="$PROJECT_DIR$/templates/cache/ls-theme_street-spirit-master/6a214ad74cefc80a308a3531cc1865ba.css" />
       </list>
     </option>
@@ -156,7 +156,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1378" />
+    <option name="width" value="1370" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -323,15 +323,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22382398" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22748092" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3267974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3251634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -710,40 +710,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2593" column="29" selection-start-line="2593" selection-start-column="29" selection-end-line="2593" selection-end-column="29" />
-          <folding>
-            <marker date="1443083838677" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443083838677" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443083838677" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/skin/ls-theme_street-spirit-master/header_top.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.8727272">
-          <caret line="84" column="10" selection-start-line="84" selection-start-column="10" selection-end-line="84" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#header#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/skin/ls-theme_street-spirit-master/nav.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9230769">
+        <state vertical-scroll-proportion="0.0">
           <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/skin/ls-theme_street-spirit-master/header_top.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9818182">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#div#0;n#nav#0;n#div#0;n#header#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/cache/ls-theme_street-spirit-master/6a214ad74cefc80a308a3531cc1865ba.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5783784">
-          <caret line="1148" column="20" selection-start-line="1148" selection-start-column="20" selection-end-line="1148" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.24144144">
+          <caret line="2197" column="122" selection-start-line="2197" selection-start-column="122" selection-end-line="2197" selection-end-column="122" />
           <folding>
-            <marker date="1443533845624" expanded="true" signature="147318:147362" placeholder="{...}" />
-            <marker date="1443533845624" expanded="true" signature="158889:159054" placeholder="{...}" />
-            <marker date="1443533845624" expanded="true" signature="181468:181524" placeholder="{...}" />
+            <marker date="1443618361809" expanded="true" signature="147691:147735" placeholder="{...}" />
+            <marker date="1443618361809" expanded="true" signature="159262:159427" placeholder="{...}" />
+            <marker date="1443618361809" expanded="true" signature="181841:181897" placeholder="{...}" />
           </folding>
         </state>
       </provider>
